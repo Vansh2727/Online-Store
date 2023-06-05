@@ -1,0 +1,95 @@
+body {
+  background-color: wheat;
+  margin: 0%;
+}
+h1 {
+  color: royalblue;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 0px;
+}
+h1:hover ,a:hover {
+  color: red;
+}
+img {
+  width: 9%;
+  border-radius: 50%;
+  padding: 0%;
+  float: right;
+  margin: 9px 2px;
+}
+h1,
+img {
+  display: inline-block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  top: 22%;
+  width: 10%;
+  text-align: center;
+}
+.red {
+  border: 2px solid black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.heading2,
+.heading22 {
+  background-color: blueviolet;
+  width: fit-content;
+}
+.heading2 {
+  margin-top: 2%;
+}
+.last {
+  background-color: beige;
+  margin-top: 1%;
+  width: 100%;
+}
+.by,.follow{text-align:center;}
+form {
+  text-align: center;
+  margin-top: 8%;
+}
+label[for="name"],
+label[for="email"],
+label[for="message"] {
+  padding-right: 2.1%;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 14%;
+  border: 1px solid black;
+  padding: 15px;
+  margin:1% 0px 0px 30px;
+}
+textarea{
+  margin-top: 1%;
+  border: 1px solid black;
+  padding: 0 10px;
+  width: 15%;
+  margin-left: 11px;
+  
+}
+button {
+  width: 1%;
+  cursor: pointer;
+  padding-left: 4%;
+  padding-right: 7%;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-top: 1%;
+}
+button:hover {
+  color: blue;
+}
